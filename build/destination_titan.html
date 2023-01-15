@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Tourism</title>
+    <link rel="icon" type="icon/x-image" href="logo/favicon-32x32.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="index.js"></script>
+</head>
+<body class=" min-h-screen lg:bg-dest-desk sm:bg-dest-tab bg-dest-mob bg-no-repeat bg-cover">
+    <header class="z-10 sticky top-4 lg:top-6 sm:top-2">
+        <div class="flex justify-between pl-8"> 
+           <div class="logo pt-4 lg:pt-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+          </div>
+              <div class="  bg-transparent">
+                  <div id="menu"  class="menu-open sm:hidden pt-8 pr-8">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z"/></g></svg>
+                  </div>
+                  <div class="hidden lg:block">
+                  <ul class=" flex text-white gap-8 bg-blend-soft-light bg-gray-900 h-16  items-center justify-center font-mono pl-14 pr-8 bg-opacity-50">
+  
+                    <li> <a href="/build/index.html"><span class=" font-bold"> 00</span>  Home</a></li>
+                    <li><a href="#"><span class=" font-bold">01 </span>Destination</a></li>
+                    <li><a href="/build/crew.html"> <span class=" font-bold">02 </span>Crew</a></li>
+                    <li><a href="/build/technology_vehicle.html"><span class=" font-bold">03 </span>Technology</a> </li>
+                    </ul>
+                    <div class=" w-32 h-1 mt-10 bg-white transform translate-x-40 -translate-y-12"></div>
+                  </div>
+                  <div class="hidden lg:hidden sm:block">
+                  <ul class=" flex text-white gap-8 bg-blend-soft-light bg-gray-900 h-24  items-center justify-center font-mono pl-14 pr-8 bg-opacity-60">
+                      <li><a href="/build/index.html">HOME</a> </li>
+                      <li><a href="#">DESTINATION</a> </li>
+                      <li><a href="/build/crew.html">CREW</a> </li>
+                      <li><a href="/build/technology_vehicle.html">TECHNOLOGY</a> </li>
+                    </ul>
+                    <div class=" w-28 h-1 mt-10 bg-white transform translate-x-32 -translate-y-12"></div>
+                  </div>
+              </div>
+          </div>
+          <section id="menu-open" class="hidden">
+            <div class="menu-open-button absolute right-0 top-4 bg-white dark:bg-black w-2/3 h-24">
+              <svg class=" fill-black dark:fill-white absolute right-9 top-6"  xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z"/><path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z"/></g></svg>
+              
+          </div>
+          <div class=" navlist2 pl-10 bg-opacity-70 bg-white border-black dark:bg-black dark:bg-opacity-75  w-2/3 absolute right-0 h-screen">
+            <ul class="md:f grid justify-left">
+              <li class="hover:text-slate-400 mt-6 mb-6 font-bold text-xl"> <a href="/build/index.html">HOME</a> </li>
+              <li class="hover:text-slate-400 mt-6 mb-6 font-bold text-xl"> <a href="#">DESTINATION</a> </li>
+              <li class="hover:text-slate-400 mt-6 mb-6 font-bold text-xl"> <a href="/build/crew.html">CREW</a></li>      
+              <li class="hover:text-slate-400 mt-6 mb-6 font-bold text-xl"> <a href="/build/technology_vehicle.html">TECHNOLOGY</a></li>       
+         </ul>
+          </div>
+        </section>
+      </header>
+      <main>
+        <div class="container flex flex-col lg:flex-row text-white mt-12 lg:mx-auto lg:gap-24 lg:max-w-5xl max-w-sm sm:max-w-xl mx-auto pr-5 pl-5 ">
+            <div>
+                <h1 class="pl-10 text-gray-300 uppercase font-sans text-sm"><span class=" text-stone-600">01</span>  Pick your destination</h1>
+                <img class="mt-10 mx-auto lg:mt-32" src="destination/image-titan.png" alt="moon_png">
+            </div>
+            <div class=" mt-24 ">
+                <div class="mt-12 flex flex-row gap-6 lg:justify-start justify-center uppercase font-serif text-stone-300 xsm:text-xs ">
+                    <a href="/build/destination_moon.html">moon</a>
+                    <a href="/build/destination_mars.html">mars</a>
+                    <a href="/build/destination_europa.html">europa</a>
+                    <a class=" underline underline-offset-8"  href="#">titan</a>
+                </div>
+                <div class="text-center lg:text-left ">
+                    <h2 class="uppercase font-serif sm:text-9xl xsm:text-7xl mt-8 mb-10 text-8xl ">titan</h2>
+                    <h3 class="xsm:text-xs text-sm mx-auto max-w-md">The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</h3>
+                </div>
+                <hr class="mt-16 mb-16 text-stone-400">
+                <div class="flex flex-col lg:flex-row uppercase text-center lg:gap-16 lg:text-left">
+                    <div>
+                        <p class="font-serif text-stone-400 text-xl mb-3 "> Avg. distance</p>
+                        <p class="font-mono text-3xl mb-3">1.6 bil. km</p> 
+                    </div>
+                    <div>
+                        <p class="font-serif text-stone-400 text-xl mb-3"> Est. travel time</p>
+                        <p class="font-mono text-3xl mb-60"> 7 years</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+      </main>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "space-tourism-multpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.2.1"
+  },
+  "dependencies": {
+    "daisyui": "^2.46.1",
+    "flowbite": "^1.6.2",
+    "tw-elements": "^1.0.0-alpha13"
+  }
+}

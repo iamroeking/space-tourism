@@ -7,8 +7,26 @@
     <title>Space Tourism</title>
     <link rel="icon" type="icon/x-image" href="logo/favicon-32x32.png">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        @media (max-width : 480px) {
+            body {
+                background-image: url('home/mobile.jpg');
+            }
+        }
+        @media (min-width : 481px) and (max-width: 1024px) {
+            body {
+                background-image: url('home/tablet.jpg');
+            }
+        }
+        @media (min-width : 1025px) {
+            body {
+                background-image: url('home/desktop.jpg');
+            }
+        }
+            </style>
 </head>
-<body class="bg-no-repeat  bg-center min-h-screen" style="background-image: url('home/tablet.jpg');">
+<body class="image bg-no-repeat  bg-center min-h-screen">
+
     <header class="z-10 sticky top-4 lg:top-6 sm:top-2">
       <div class="flex justify-between pl-8"> 
          <div class="logo pt-4 lg:pt-0">

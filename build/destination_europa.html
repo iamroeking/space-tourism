@@ -8,8 +8,30 @@
     <link rel="icon" type="icon/x-image" href="logo/favicon-32x32.png">
     <link rel="stylesheet" href="css/style.css">
     <script src="index.js"></script>
+    <style>
+        body {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        @media (max-width : 639px) {
+            body {
+                background-image: url('home/mobile.jpg');
+            }
+        }
+        @media (min-width : 640px) and (max-width: 1023px) {
+            body {
+                background-image: url('home/tablet.jpg');
+            }
+        }
+        @media (min-width : 1024px) {
+            body {
+                background-image: url('home/desktop.jpg');
+            }
+        }
+            </style>
 </head>
-<body class=" min-h-screen lg:bg-dest-desk sm:bg-dest-tab bg-dest-mob bg-no-repeat bg-cover">
+<body class=" min-h-screen r">
     <header class="z-10 sticky top-4 lg:top-6 sm:top-2">
         <div class="flex justify-between pl-8"> 
            <div class="logo pt-4 lg:pt-0">
